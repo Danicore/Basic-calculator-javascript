@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+	<link href="" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+<form name="forms">
+<input type="text" class="text" name="answer">
+<br /><br /><br /><br />
+
+<table>
+	<tr>
+		<td><input type="button" value="7" class="size" onclick="forms.answer.value += '7'"></td>
+		<td><input type="button" value="8" class="size" onclick="forms.answer.value += '8'"></td>
+		<td><input type="button" value="9" class="size" onclick="forms.answer.value += '9'"></td>
+		<td><input type="button" value="-" class="size" onclick="forms.answer.value += '-'"></td>
+	</tr>
+	<tr>
+		<td><input type="button" value="4" class="size" onclick="forms.answer.value += '4'"></td>
+		<td><input type="button" value="5" class="size" onclick="forms.answer.value += '5'"></td>
+		<td><input type="button" value="6" class="size" onclick="forms.answer.value += '6'"></td>
+		<td><input type="button" value="+" class="size" onclick="forms.answer.value += '+'"></td>
+	</tr>
+	<tr>
+		<td><input type="button" value="1" class="size" onclick="forms.answer.value += '1'"></td>
+		<td><input type="button" value="2" class="size" onclick="forms.answer.value += '2'"></td>
+		<td><input type="button" value="3" class="size" onclick="forms.answer.value += '3'"></td>
+		<td><input type="button" value="/" class="size" onclick="forms.answer.value += '/'"></td>
+	</tr>
+	<tr>
+		<td><input type="button" value="0" class="size" onclick="forms.answer.value += '0'"></td>
+		<td><input type="button" value="x" class="size" onclick="forms.answer.value += '*'"></td>
+		<td><input type="button" value="C" class="size" onclick="forms.answer.value = ''"></td>
+		<td><input type="button" value="=" class="size" onclick="forms.answer.value = eval (forms.answer.value)"></td>
+	</tr>
+</table>
+</div>
+</body>
+</html>
